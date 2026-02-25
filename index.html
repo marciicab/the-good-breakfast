@@ -1,2 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+   <!-- <link rel="stylesheet" href="Visual.css">-->
+<head>
+    <meta charset="UTF-8"> 
+    <!-- El UTF-8 es un estándar que permite representar todos los caracteres de casi todos los idiomas del mundo.
+    Incluye letras, números, símbolos, emojis, etc. 
+    Es el formato más utilizado porque evita errores de símbolos extraños -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Toast</title>
+</head>
+<body>
 
-<!-- Your content goes here ↓↓↓ -->
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">DAILY OFFER</a></li>
+            <li><a href="#">CONTACT US</a></li>
+        </ul>
+    </nav>
+    <!-- Título -->
+    <h1>The good breakfast</h1>
+
+     <!-- Párrafo -->
+      <p>Here you will find all sorts of delicious treats</p>
+      <!-- Iteración 4: Párrafos -->
+      <p>Our commitment is to use impeccable sourcing and <strong>quality ingredients</strong>
+        <br>An ongoing collaboration between the classroom staff 
+       <br> and the development team allow us to iterate our content and give our 
+       <br> students the coding 'fruits and vegetables' -mainly made of JavaScript- 
+       <br> that they need to grow as a healthy developer.</p>
+     <!-- Imagen y Pie de foto -->
+      <figure>
+  <!-- <img src="https://i.postimg.cc/htxcJGB6/ZKkCecn.jpg" alt="Delicious breakfast with toast and fruits" width="400">
+  <figcaption>Powered by biscuit.</figcaption> -->
+
+ <video width="50%" height="auto" controls>
+  <video src="C:\Users\25377\Desktop\Curso\Tareas\Desayuno\Video2.mp4" controls></video>
+
+</figure>
+      <!-- Siempre es recomendable poner un texto alternativo en la etiqueta <img> usando el atributo alt.
+      Accesibilidad: Los lectores de pantalla para personas con discapacidad visual leen ese texto, así saben qué hay en la imagen.
+      Cuando la imagen no carga: Si hay un error al cargar la imagen, el texto alt se muestra en su lugar.
+      SEO: Los buscadores usan el alt para entender el contenido de la página.-->
+
+       <!-- Iteración 5: Citas -->
+  <blockquote>
+  "Good code & good coffee, everyday"
+</blockquote>
+
+
+<!--  Iteración 6: Listas -->
+<!-- Lista de cafés -->
+<!--<h3>Coffees</h3>
+<ul>
+  <li>Café Latte</li>
+  <li>Americano</li>
+  <li>Macchiato</li>
+  <li>Cappuccino</li>
+</ul>-->
+
+<!-- Lista de tés -->
+<!--<h3>Teas</h3>
+<ul>
+  <li>Earl Grey</li>
+  <li>Green Tea</li>
+  <li>Rooibos</li>
+</ul> -->
+ <!--Iteración 6: Bonus-->
+<h2>Our Menu</h2>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Coffees</th>
+      <th>Teas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Café Latte</td>
+      <td>Earl Grey</td>
+    </tr>
+    <tr>
+      <td>Americano</td>
+      <td>Green Tea</td>
+    </tr>
+    <tr>
+      <td>Macchiato</td>
+      <td>Rooibos</td>
+    </tr>
+    <tr>
+      <td>Cappuccino</td>
+      <td></td> <!-- Celda vacía si no hay té correspondiente -->
+    </tr>
+  </tbody>
+</table>
+<!--
+Iteración 6: Bonus
+<table> → crea la tabla.
+<thead> → contiene la fila de cabeceras.
+<tr> → fila de la tabla (table row).
+<th> → celda de cabecera (normalmente en negrita).
+<td> → celda de datos (table data).
+border="1", cellpadding, cellspacing-->
+
+
+<!-- Iteración 7: Formulario de Reservas -->
+<h2>Reserva Aqui</h2>
+
+ <label for="name">Nombre del cliente</label>
+ <br> <input type="text" id="name" placeholder="Ingresa tu nombre"> 
+
+ <br><br><label for="Menu">Menú:</label><br>
+<select name="Menu" id="Menu">
+<option value="Snack">Snack</option>
+<option value="Breakfast">Breakfast</option>
+</select>
+
+<br><br> <label for="people">Número de personas:</label><br>
+  <select id="people" name="people" required>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select><br><br>
+ 
+  <button>Enviar</button>
+ 
+
+  <!-- Botón para enviar la reserva -->
+  
+
+</form>
+
+<!-- Footer -->
+      <footer>
+  <p>From the oven with love</p>
+   <p>
+    <a href="mailto:persona@ejemplo.com">Contact Us</a>
+  </p>
+
+  <p>
+    Opening Hours: Monday – Friday: 7:00 AM – 3:00 PM<br>
+    Saturday – Sunday: 8:00 AM – 4:00 PM
+  </p>
+</footer>
+
+
+</body>
+</html>
